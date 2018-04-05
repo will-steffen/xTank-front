@@ -1,0 +1,17 @@
+{
+  "name": "x-tank",
+  "version": "1.0.0",
+  "description": "=]",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc-bundle --project ./tsconfig.json"
+  },
+  "author": "willian steffen",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/pixi.js": "^4.7.2",
+    "typescript": "^2.7.2",
+    "typescript-bundle": "^0.8.9"
+  }
+}

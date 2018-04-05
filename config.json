@@ -1,0 +1,9 @@
+{
+    "wsPort": 8080,
+    "width": 900,
+    "height": 600,
+    "tankSpeed": 3,
+    "tankSize": 70,
+    "bulletSize": 4,
+    "shotCooldown": 20
+}
