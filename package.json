@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc-bundle --project ./tsconfig.json"
+    "build": "tsc-bundle --project ./tsconfig.json",
+    "serve": "http-server -c-1"
   },
   "author": "willian steffen",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "@types/pixi.js": "^4.7.2",
     "typescript": "^2.7.2",
     "typescript-bundle": "^0.8.9"
+  },
+  "dependencies": {
+    "http-server": "^0.11.1"
   }
 }

@@ -1,5 +1,5 @@
 {
-    "wsPort": 8080,
+    "wsPort": 80,
     "width": 900,
     "height": 600,
     "tankSpeed": 3,
