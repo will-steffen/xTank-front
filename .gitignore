@@ -7,5 +7,3 @@
 # node_modules
 node_modules/*
 
-# game build output
-game.js
