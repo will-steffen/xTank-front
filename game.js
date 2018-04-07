@@ -410,7 +410,7 @@
               this.game = game;
           }
           create() {
-              this.ws = new WebSocket('ws://x-tank-server.herokuapp.com/socket');
+              this.ws = new WebSocket('wss://x-tank-server.herokuapp.com/socket');
               this.ws.onopen = ev => { this.onOpen(ev); };
               this.ws.onclose = ev => { this.onClose(ev); };
               this.ws.onmessage = ev => { this.onMessage(ev); };
